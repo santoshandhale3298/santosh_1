@@ -1,1 +1,8 @@
-hello 
+provider "aws" {
+resion = "us-east-1a"
+}
+resource = "aws_s3_bucket" "abc"
+{
+bucket ="flipkart9900one"
+acl = "private"
+}
